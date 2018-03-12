@@ -73,7 +73,7 @@ window.onload = function () {
 
   // Show lives
    comments = function () {
-    showLives.innerHTML = "You have " + lives + " lives";
+    showLives.innerHTML = "You have " + lives + " guesses";
     if (lives < 1) {
       showLives.innerHTML = "Game Over";
     }
@@ -125,7 +125,7 @@ window.onload = function () {
     buttons();
 
     geusses = [ ];
-    lives = 10;
+    lives = 14;
     counter = 0;
     space = 0;
     result();
