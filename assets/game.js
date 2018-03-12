@@ -44,7 +44,7 @@ window.onload = function () {
     } else if (chosenCategory === categories[1]) {
       catagoryName.innerHTML = "The Chosen Category Is Great Authors and Poets!";
     } else if (chosenCategory === categories[2]) {
-      catagoryName.innerHTML = "The Chosen Category Is Historic Cities!";
+      catagoryName.innerHTML = "The Chosen Category Is Famous Universities!";
     }
   }
 
@@ -113,9 +113,9 @@ window.onload = function () {
   // Play logic loops
   play = function () {
     categories = [
-        ["tesla", "franklin", "eienstien", "curie", "leonardo"],
-        ["kerouac", "joyce", "shakespeare", "wolfe", "sexton"],
-        ["london", "rome", "berlin", "babylon", "cyprus"],
+        ["tesla", "franklin", "einstien", "curie", "leonardo","newton"],
+        ["homer", "joyce", "shakespeare", "wolfe", "sexton", "plato"],
+        ["harvard", "oxford", "princeton", "caimbridge", "dartmouth"],
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
