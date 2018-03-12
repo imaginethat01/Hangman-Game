@@ -11,12 +11,7 @@ body {
   
   
   
-  h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    text-transform: uppercase;
-    margin: 5px 0;
-  }
+
   
   h1 {
     font-family: 'Rammetto One', cursive;
@@ -62,7 +57,6 @@ p2 {
   
   #alphabet {
     margin: 15px auto;
-    padding-top: 1%;
     max-width: 850px;
     
     
