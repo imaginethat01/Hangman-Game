@@ -1,0 +1,146 @@
+
+
+body {
+    background-image: url("images/cloud.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    text-align: center;
+    height: auto;
+  }
+  
+  
+  
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 5px 0;
+  }
+  
+  h1 {
+    font-family: 'Rammetto One', cursive;
+    font-size: 3.5em;
+  }
+
+  a { font-size: 1.6em;
+      font-style: italic;}
+  
+  h2 {
+    font-size: 1.6em;
+  }
+  
+
+
+p2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2.0em;
+
+        }
+
+  p {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.0em
+  }
+
+
+  .button {
+    background-color: white; 
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: outset;
+    border-color: rgb(190, 190, 190);
+    position: relative; left: 3%;
+}
+
+  
+  #alphabet {
+    margin: 15px auto;
+    padding-top: 1%;
+    max-width: 850px;
+    
+    
+  }
+  #alphabet:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  #alphabet li {
+    float: left;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    list-style: none;
+    width: 50px;
+    height: 45px;
+    padding-top: 10px;
+    background: linen;
+    color: black;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 0px;
+    border: solid 2px #fff;
+    z-index: 1;
+    position: relative; left: 5.5%;
+ 
+  }
+  #alphabet li:hover {
+    background: #545552;
+    border: solid 2px #fff;
+    color: linen;
+  }
+  
+  #my-word {
+    margin: 0;
+    display: block;
+    padding: 0;
+    display: block;
+  }
+  
+  #my-word li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.6em;
+  }
+  
+  .active {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    cursor: default;
+  }
+  .active:hover {
+    transition: all 0.3s ease-in-out;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+
+  }
+  
+  #mylives {
+    font-size: 1.6em;
+    text-align: center;
+    display: block;
+  }
+  
+
+  
+  @media (max-width: 767px) {
+    #alphabet {
+      padding: 0 0 0 15px;
+    }
+  }
+  @media (max-width: 480px) {
+    #alphabet {
+      padding: 0 0 0 25px;
+    }
+  }
+  
