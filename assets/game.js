@@ -136,13 +136,4 @@ window.onload = function () {
 
 
 play();
-
-
-
-document.getElementById('reset').onclick = function() {
-  correct.parentNode.removeChild(correct);
-  letters.parentNode.removeChild(letters);
-  showClue.innerHTML = "";
-  play();
-}
 }

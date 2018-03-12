@@ -42,6 +42,7 @@ p2 {
   .button {
     background-color: white; 
     border: none;
+    border-radius: 5px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -50,14 +51,20 @@ p2 {
     margin: 4px 2px;
     cursor: pointer;
     border: outset;
-    border-color: rgb(190, 190, 190);
+    border-color: rgb(253, 251, 251);
     position: relative; left: 3%;
 }
 
+.button:hover { transition: all 0.3s ease-in-out;
+                  background: #ced1c8;
+
+
+
+}
   
   #alphabet {
     margin: 15px auto;
-    max-width: 850px;
+    max-width: 845px;
     
     
   }
@@ -72,14 +79,14 @@ p2 {
     text-align: center;
     margin: 0 10px 10px 0;
     list-style: none;
-    width: 50px;
+    width: 47px;
     height: 45px;
     padding-top: 10px;
     background: linen;
     color: black;
     font-size: 32px;
     cursor: pointer;
-    border-radius: 0px;
+    border-radius: 5px;
     border: solid 2px #fff;
     z-index: 1;
     position: relative; left: 5.5%;
